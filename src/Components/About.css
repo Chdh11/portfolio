@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Gravitas+One&family=Italiana&family=Knewave&family=Limelight&family=Oxanium:wght@200..800&family=Poppins&family=Radley:ital@0;1&family=Rufina:wght@400;700&family=Tenor+Sans&family=Zen+Dots&display=swap');
+
+.container2{
+    display: flex;   
+    font-family: Oxanium;
+    justify-content: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    gap:30px;
+    
+}
+.content2{
+    padding:20px 50px 20px 50px;
+    text-align: left;
+}
+.content2 h1{
+    text-align: left;
+    font-size: 90px;
+}
+.content2 p{
+    text-align: left;
+    position: relative;
+    bottom:40px;
+    font-size: 16px;
+}
+.pic2{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    margin-right: 30px;
+}
+.pic2 img{
+    width:500px;
+    height:600px;
+}
+
+.content2 button{
+    width: 220px;
+    height: 38px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #ed6f63;
+    color: #2D2926; 
+    font-family: Oxanium;
+    position: relative;
+    overflow: hidden;
+    transition: color 0.1s ease;
+    position:relative;
+    bottom: 20px;
+}
+.content2 button::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #2D2926; 
+    transition: top 0.1s ease;
+    z-index: 0;
+}
+
+.content2 button span {
+    position: relative;
+    z-index: 1;
+}
+
+.content2 button:hover {
+    color: white;
+}
+
+.content2 button:hover::before {
+    top: 0; 
+}

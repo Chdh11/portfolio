@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Gravitas+One&family=Italiana&family=Knewave&family=Limelight&family=Oxanium:wght@200..800&family=Poppins&family=Radley:ital@0;1&family=Rufina:wght@400;700&family=Tenor+Sans&family=Zen+Dots&display=swap');
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    text-align: left;
+    margin-left: 25%;
+    margin-bottom: 80px;
+}
+.form-container span{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: 600;
+}
+.form-container input{
+    height:40px;
+    border-radius: 5px;
+}
+.form-container textarea{
+    height:100px;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: black;
+}
+.form-container button{
+    width: 220px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: black;
+    color: white; 
+    font-family: Oxanium;
+    position: relative;
+    overflow: hidden;
+    transition: color 0.1s ease;
+    margin-top: 30px;
+
+}
+.socials{
+    display: flex;
+    justify-content: center;
+    gap:50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+img{
+    width:35px;
+    height:35px;
+    cursor: pointer;
+}

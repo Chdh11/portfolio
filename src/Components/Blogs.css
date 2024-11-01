@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Gravitas+One&family=Italiana&family=Knewave&family=Limelight&family=Oxanium:wght@200..800&family=Poppins&family=Radley:ital@0;1&family=Rufina:wght@400;700&family=Tenor+Sans&family=Zen+Dots&display=swap');
+
+.flex-container{
+    display:flex;
+    gap: 30px;
+    justify-content: center;
+    font-family: Oxanium;
+}
+.blog1, .blog2, .blog3{
+    background-color: white;
+    width:25vw;
+    height:500px;
+}

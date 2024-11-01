@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Gravitas+One&family=Italiana&family=Knewave&family=Limelight&family=Oxanium:wght@200..800&family=Poppins&family=Radley:ital@0;1&family=Rufina:wght@400;700&family=Tenor+Sans&family=Zen+Dots&display=swap');
+
+.projects-container{
+    font-family: Oxanium;
+}
+.project1, .project2, .project3{
+    display: flex;
+    gap:35px;
+    margin-left: 130px;
+    margin-right: 130px;
+    margin-top: 60px;
+    background-color: #ed6f63;
+    padding:35px 35px 35px 35px;
+    border-radius: 10px;;
+    
+}
+.project-content{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    
+}
+.project-image{
+    width:330px;
+    height:330px;
+    border-radius: 10px;;
+}

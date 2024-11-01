@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Gravitas+One&family=Italiana&family=Knewave&family=Limelight&family=Oxanium:wght@200..800&family=Poppins&family=Radley:ital@0;1&family=Rufina:wght@400;700&family=Tenor+Sans&family=Zen+Dots&display=swap');
+
+.skills-container {
+    padding-top: 40px;
+    padding-bottom: 50px;
+    background-color: black;
+    color: white;
+}
+
+.skills-title {
+    font-size: 90px;
+    margin-bottom: 50px;
+    text-align: right;
+    margin-right: 120px;
+    font-weight: bold;
+    font-family: Oxanium ;
+}
+
+.stair-container {
+    display: flex;
+    gap:35px;
+    justify-content: center;
+    margin-left: 60px;
+    margin-right: 60px;
+    
+}
+
+.step {
+    width: 15vw;
+    height: 200px;
+    background-color: #ed6f63;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    align-items: flex start;
+    cursor: pointer;
+    transition: transform 0.3s ease; 
+    text-align: left;
+    font-family: Oxanium;
+    padding: 0 30px 0 30px;
+    border-radius: 10px;
+
+
+}
+
+.step:hover {
+    transform: scale(1.1); 
+    background-color: #ed6f63; 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.expanded-step {
+    position: fixed;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    max-width: 600px;
+    height: 300px;
+    background-color: black;
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    z-index: 20;
+}
+
+.close-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #74c272;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.close-button:hover {
+    background-color: #f1f1f1;
+}
+
+.tap{
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
